@@ -68,7 +68,7 @@ automorphism-based signature transport as in Φ2Sin.
 8. Push the returned token forward with the automorphism, giving `(a*sx, sy)`.
 9. Submit the transported token for the reserved account point `(x2, y)` to get the flag.
 
-[solver script is here](/extra/solve.py)
+[solver script is here](/extra/solve-simple.py) which is a simpler solver. And also we have a [faster solver](/extra/solve-floor-sum.py).
 
 ## FLAG
 

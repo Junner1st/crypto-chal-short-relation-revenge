@@ -61,7 +61,8 @@ $$
 8. 對回傳 token 套用自同態，得到 `(a*sx, sy)`。
 9. 把搬運後的 token 送去驗證 reserved account 的點 `(x2, y)`，取得 flag。
 
-[solver script is here](/extra/solve.py)
+[簡單 solver script](/extra/solve-simple.py) 以及 [faster solve script](/extra/solve-floor-sum.py).
+
 
 ## FLAG
 
