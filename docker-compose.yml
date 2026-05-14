@@ -1,0 +1,9 @@
+services:
+  short_relation_service:
+    build: .
+    container_name: short-relation-service
+    ports:
+      - "1342:5000"
+    environment:
+      FLAG: "CCCTF{f100R_5Um_g0TT4_b3_usefaahhh}"
+    restart: unless-stopped
