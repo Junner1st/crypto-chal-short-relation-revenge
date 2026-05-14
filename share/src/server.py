@@ -25,7 +25,7 @@ def banner() -> dict[str, Any]:
 
 
 def main() -> None:
-    print("== Short Relation Token Service ==")
+    print("== Token Service ahhhgain ==")
     print(json.dumps(handle_request({"cmd": "params"}), separators=(",", ":")))
     print("Commands:")
     print("  params")
